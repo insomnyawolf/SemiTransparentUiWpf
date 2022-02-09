@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32127.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SemitransparentUi", "SemitransparentUi\SemitransparentUi.csproj", "{BA629D52-392C-4FC4-86D6-66AB2105459C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrashHelper", "CrashHelper\CrashHelper.csproj", "{166974EA-A3E8-4200-A8A8-E52B085DC23D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA629D52-392C-4FC4-86D6-66AB2105459C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA629D52-392C-4FC4-86D6-66AB2105459C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA629D52-392C-4FC4-86D6-66AB2105459C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA629D52-392C-4FC4-86D6-66AB2105459C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{166974EA-A3E8-4200-A8A8-E52B085DC23D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{166974EA-A3E8-4200-A8A8-E52B085DC23D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{166974EA-A3E8-4200-A8A8-E52B085DC23D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{166974EA-A3E8-4200-A8A8-E52B085DC23D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1776B2E1-00EC-4812-90C8-1DE825482AC2}
+	EndGlobalSection
+EndGlobal

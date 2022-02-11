@@ -10,7 +10,7 @@ namespace SemiTransparentUi
     {
         public App()
         {
-            this.AddCrashHelper("https://github.com/insomnyawolf/NuGets");
+            this.AddCrashHelper("https://github.com/insomnyawolf/SemiTransparentUiWpf");
         }
     }
 }

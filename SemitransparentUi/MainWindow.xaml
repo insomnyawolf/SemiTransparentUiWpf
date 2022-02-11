@@ -3,13 +3,13 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:SemiTransparentUi" 
+        xmlns:local="clr-namespace:SemitransparentUi.CustomControls"
         Title="MainWindow" Height="500" Width="300"
         WindowStyle="None"
         AllowsTransparency="True"
-        
+        ResizeMode="NoResize"
         >
-    <DockPanel x:Name="MainLayout" LastChildFill="True" HorizontalAlignment="Right">
+    <DockPanel x:Name="MainLayout" LastChildFill="True" VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
         <Menu x:Name="MainMenu" DockPanel.Dock="Top">
             <Menu.ItemsPanel>
                 <ItemsPanelTemplate>
@@ -17,32 +17,12 @@
                 </ItemsPanelTemplate>
             </Menu.ItemsPanel>
             <MenuItem Header="_File">
-                <!--<MenuItem Header="_New" />
-                <MenuItem Header="_Open" />
-                <MenuItem Header="_Save" />-->
                 <MenuItem Header="_Crash" Click="CrashTest" />
                 <Separator />
             </MenuItem>
             <MenuItem x:Name="mainMenuExit" Header="_Exit" DockPanel.Dock="Right" Click="MainMenuExitClick"/>
             <MenuItem x:Name="mainMenuMoveApp" Header="_ClickHereAndDragToMove" DockPanel.Dock="Right"/>
         </Menu>
-        <Grid Name="ContentGrid" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" ShowGridLines="False">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*"></ColumnDefinition>
-                <ColumnDefinition Width="5"></ColumnDefinition>
-                <ColumnDefinition Width="*"></ColumnDefinition>
-            </Grid.ColumnDefinitions>
-            <Grid.RowDefinitions>
-                <RowDefinition Height="*"></RowDefinition>
-                <RowDefinition Height="5"></RowDefinition>
-                <RowDefinition Height="*"></RowDefinition>
-            </Grid.RowDefinitions>
-            <RichTextBox x:Name="ChatHistory" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FontSize="18"></RichTextBox>
-            <GridSplitter x:Name="HorizontalSplit" Height="5" HorizontalAlignment="Stretch" Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="3" ResizeBehavior="PreviousAndNext"/>
-            <RichTextBox x:Name="NewMessage" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="3" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FontSize="18"></RichTextBox>
-            <GridSplitter x:Name="VerticalSplit" Width="5" Grid.Row="2" Grid.Column="1" VerticalAlignment="Stretch" HorizontalAlignment="Center" ResizeBehavior="PreviousAndNext"/>
-            <Button x:Name="SendButton" Grid.Column="2" Grid.Row="2" Content="Send" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
-            </Button>
-        </Grid>
+        <local:WebElement x:Name="Web"/>
     </DockPanel>
 </Window>

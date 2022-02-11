@@ -5,7 +5,9 @@ VisualStudioVersion = 17.1.32127.271
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SemitransparentUi", "SemitransparentUi\SemitransparentUi.csproj", "{BA629D52-392C-4FC4-86D6-66AB2105459C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrashHelper", "CrashHelper\CrashHelper.csproj", "{166974EA-A3E8-4200-A8A8-E52B085DC23D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrashHelper", "CrashHelper\CrashHelper.csproj", "{166974EA-A3E8-4200-A8A8-E52B085DC23D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConfigHelper", "ConfigHelper\ConfigHelper.csproj", "{C155733A-325E-404A-A746-EFE609A19B80}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{166974EA-A3E8-4200-A8A8-E52B085DC23D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{166974EA-A3E8-4200-A8A8-E52B085DC23D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{166974EA-A3E8-4200-A8A8-E52B085DC23D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C155733A-325E-404A-A746-EFE609A19B80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C155733A-325E-404A-A746-EFE609A19B80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C155733A-325E-404A-A746-EFE609A19B80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C155733A-325E-404A-A746-EFE609A19B80}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
